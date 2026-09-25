@@ -1,0 +1,12 @@
+{
+  "home": "Home",
+  "catalog": "Catalog",
+  "favorites": "Favorites",
+  "profile": "Profile",
+  "welcome": "Welcome to the app!",
+  "change_theme": "Change Theme",
+  "change_language": "Change Language",
+  "app_info": "App Information",
+  "add_to_fav": "Add to Favorites",
+  "price": "Price: {}"
+}
