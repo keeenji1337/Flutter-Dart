@@ -1,0 +1,47 @@
+name: flutter_application_srs9
+description: "Post Explorer Flutter Application - SRS 9 with Launcher Icons and Automated Tests"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  dio: ^5.11.1
+  retrofit: ^4.10.0
+  json_annotation: ^4.12.0
+  flutter_bloc: ^9.1.1
+  equatable: ^3.0.0
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  retrofit_generator: ^10.3.2
+  build_runner: ^2.16.1
+  json_serializable: ^6.15.2
+  bloc_test: ^10.0.0
+  http_mock_adapter: ^0.6.1
+  mocktail: ^1.0.5
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#1E3A8A"
+  adaptive_icon_foreground: "assets/icon/app_icon_foreground.png"
+  remove_alpha_ios: true
